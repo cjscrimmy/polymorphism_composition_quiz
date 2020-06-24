@@ -57,6 +57,8 @@ public class Bicycle{
 }
 
 8. What is/are the advantage(s) of using composition?
+A. An advantage is that an can be composed of multiple other objects.
+An other advantage is that it helps stop code duplication in multiple places.
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
 A. When an object is destoryed, the objects it is composed of are destoryed too.
