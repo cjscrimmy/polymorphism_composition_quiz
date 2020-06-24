@@ -49,13 +49,11 @@ public class Bicycle{
     private ArrayList<Tyre> tyres;
     private Saddle saddle;
     private ArrayList<Peddle> peddles;
-
     public Bicycle(){
         this.tyres = new ArrayList<Tyre>();
         this.peddles = new ArrayList<Peddles>();
         this.saddle = new Saddle();
     }
-
     // code for getters/setters
     // code for other methods
 }
