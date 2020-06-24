@@ -23,6 +23,10 @@ e.g if a parent class has 4 child classes then the object can
 take 5 forms. 
 
 5. Give an example of when you could use polymorphism.
+A. Polymorphism could be used when modelling a car
+dealership. You can a Vehicle class with default properties
+and then a few child classes to model the behaviour associated 
+with different types of car.
 
 
 
