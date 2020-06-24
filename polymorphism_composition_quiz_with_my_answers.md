@@ -45,15 +45,13 @@ that another object has already implemented.
 
 Example-
 <code>
-public class Bicycle{
-    private Tyre tyre1; 
-    <br />
-    private Tyre tyre2; 
-
-    private Saddle saddle; 
-    private Peddle peddle1;
-    private Peddle peddle2; 
-}
+    public class Bicycle{
+        private Tyre tyre1; 
+        private Tyre tyre2; 
+        private Saddle saddle; 
+        private Peddle peddle1;
+        private Peddle peddle2; 
+    }
 </code>
 
 8. What is/are the advantage(s) of using composition?
