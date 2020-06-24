@@ -12,6 +12,9 @@ Example - Person person = new Person();
           Person person = new Lawyer();
 
 3. What can we use to implement polymorphism in Java?
+A. We can use inheritance to implement polymorphism in Java. 
+We can create an abstract parent class and child classes that extend from
+the parent class and inherit the parent's properties.
 
 4. How many 'forms' can an object take when using polymorphism?
 
