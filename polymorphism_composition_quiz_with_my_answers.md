@@ -37,7 +37,24 @@ A. Composition means that an object is built using other objects inorder to use 
 properties.
 
 7. When would you use composition? Provide a simple example in Java.
+A. You would composition when you need an object to make use of behaviour
+that another object has already implemented.
 
+Example-
+public class Bicycle{
+    private ArrayList<Tyre> tyres;
+    private Saddle saddle;
+    private ArrayList<Peddle> peddles;
+
+    public Bicycle(){
+        this.tyres = new ArrayList<Tyre>();
+        this.peddles = new ArrayList<Peddles>();
+        this.saddle = new Saddle();
+    }
+
+    // code for getters/setters
+    // code for other methods
+}
 
 8. What is/are the advantage(s) of using composition?
 
