@@ -9,9 +9,9 @@ A. Something that can take many different forms.
 A. When used in OO design, polymorphism means that an object created based on a class can take different forms.
 Example -
 <code>
-Person person = new Person(); 
-Person person = new Doctor(); 
-Person person = new Lawyer();
+Person person = new Person(); <br />
+Person person = new Doctor(); <br />
+Person person = new Lawyer(); <br />
 </code>
 
 3. What can we use to implement polymorphism in Java?
@@ -46,16 +46,16 @@ that another object has already implemented.
 Example-
 <code>
 public class Bicycle{
-    private ArrayList<Tyre> tyres;
-    private Saddle saddle;
-    private ArrayList<Peddle> peddles;
-    public Bicycle(){
-        this.tyres = new ArrayList<Tyre>();
-        this.peddles = new ArrayList<Peddles>();
-        this.saddle = new Saddle();
-    }
-    // code for getters/setters
-    // code for other methods
+    private ArrayList<Tyre> tyres; <br/>
+    private Saddle saddle; <br />
+    private ArrayList<Peddle> peddles;<br />
+    public Bicycle(){<br />
+        this.tyres = new ArrayList<Tyre>(); <br />
+        this.peddles = new ArrayList<Peddles>(); <br />
+        this.saddle = new Saddle(); <br />
+    } <br />
+    // code for getters/setters <br />
+    // code for other methods <br />
 }
 </code>
 
