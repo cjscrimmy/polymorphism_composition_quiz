@@ -46,19 +46,11 @@ that another object has already implemented.
 Example-
 <code>
 public class Bicycle{
-    private Tyre tyre1; <br />
-    private Tyre tyre2; <br />
-    private Saddle saddle; <br />
-    private Peddle peddle1 ;<br />
-    private Peddle peddle2; <br />
-    public Bicycle(){<br />
-        this.tyre1 = new Tyre()<br/>
-        this.tyre2 = new Tyre()<br/>
-        this.peddle1 = new Peddle()<br />
-        // rest of constructor
-    } <br />
-    // code for getters/setters <br />
-    // code for other methods <br />
+    private Tyre tyre1; 
+    private Tyre tyre2; 
+    private Saddle saddle; 
+    private Peddle peddle1 ;
+    private Peddle peddle2; 
 }
 </code>
 
