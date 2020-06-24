@@ -47,9 +47,11 @@ Example-
 <code>
 public class Bicycle{
     private Tyre tyre1; 
+    <br />
     private Tyre tyre2; 
+
     private Saddle saddle; 
-    private Peddle peddle1 ;
+    private Peddle peddle1;
     private Peddle peddle2; 
 }
 </code>
