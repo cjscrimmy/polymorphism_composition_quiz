@@ -33,9 +33,13 @@ with different types of car.
 # Composition
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
+A. Composition means that an object is built using other objects inorder to use their 
+properties.
 
 7. When would you use composition? Provide a simple example in Java.
+
 
 8. What is/are the advantage(s) of using composition?
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
+A. When an object is destoryed, the objects it is composed of are destoryed too.
