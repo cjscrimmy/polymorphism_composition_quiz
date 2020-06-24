@@ -44,6 +44,7 @@ A. You would composition when you need an object to make use of behaviour
 that another object has already implemented.
 
 Example-
+<code>
 public class Bicycle{
     private ArrayList<Tyre> tyres;
     private Saddle saddle;
@@ -58,6 +59,7 @@ public class Bicycle{
     // code for getters/setters
     // code for other methods
 }
+</code>
 
 8. What is/are the advantage(s) of using composition?
 A. An advantage is that an can be composed of multiple other objects.
