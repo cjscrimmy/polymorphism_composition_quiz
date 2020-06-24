@@ -44,7 +44,7 @@ A. You would composition when you need an object to make use of behaviour
 that another object has already implemented.
 
 Example-
-<code>
+
     public class Bicycle{
         private Tyre tyre1; 
         private Tyre tyre2; 
@@ -52,7 +52,6 @@ Example-
         private Peddle peddle1;
         private Peddle peddle2; 
     }
-</code>
 
 8. What is/are the advantage(s) of using composition?
 A. An advantage is that an can be composed of multiple other objects.
