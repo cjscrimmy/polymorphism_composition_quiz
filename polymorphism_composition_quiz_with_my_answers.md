@@ -8,11 +8,11 @@ A. Something that can take many different forms.
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
 A. When used in OO design, polymorphism means that an object created based on a class can take different forms.
 Example -
-
+<code>
     Person person = new Person(); 
     Person person = new Doctor(); 
     Person person = new Lawyer(); 
-
+</code>
 
 3. What can we use to implement polymorphism in Java?
 A. We can use inheritance to implement polymorphism in Java. 
